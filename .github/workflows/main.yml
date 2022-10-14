@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: $GITHUB_WORKSPACE/scripts/build.sh
+    - run: $GITHUB_WORKSPACE/scripts/run.sh
     - uses: actions/upload-artifact@v3
       with:
         name: my-artifact
