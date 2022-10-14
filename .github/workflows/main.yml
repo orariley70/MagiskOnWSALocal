@@ -1,5 +1,5 @@
 name: Build artifact
-on: workflow_run
+on: workflow_dispatch
 
 jobs:
   Run-npm-on-Ubuntu:
